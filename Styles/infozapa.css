@@ -1,0 +1,186 @@
+
+.nom_prod {
+  color: var(--character-title-85, rgba(0, 0, 0, 0.85));
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 75% */
+}
+.mod_prod {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 110% */
+}
+.series {
+  display: flex;
+  justify-content: space-between;
+}
+.colores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color1 {
+  display: flex;
+  flex-direction: column;
+}
+.color2 {
+  display: flex;
+  flex-direction: column;
+}
+.blanco {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+.negro {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #232321;
+}
+.naranja {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #f08155;
+}
+.gris {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #c9ccc6;
+}
+.nom_color1 {
+  display: flex;
+  gap: 30px;
+}
+.bot_color1 {
+  display: flex;
+  gap: 25px;
+}
+
+.Amarillo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #ffa52f;
+}
+.Marron {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #bb8056;
+}
+.Azul {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #5d7e9d;
+}
+.Rojo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background: #f64133;
+}
+.nom_color2 {
+  display: flex;
+  gap: 27px;
+}
+.bot_color2 {
+  display: flex;
+  gap: 25px;
+}
+.btn_talla {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+}
+.tallas {
+  padding-left: 20px;
+}
+.bts_talls {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.global {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.imagenesz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reseña {
+  display: flex;
+  justify-content: space-evenly;
+}
+.resena_inp {
+  border: 0.5px solid #cecece;
+  color: #979797;
+  width: 796px;
+  height: 16px;
+  padding: 24px 16px;
+}
+.rsa_prf {
+  display: flex;
+  gap: 10px;
+}
+.nom_fcha {
+  display: flex;
+}
+.btons_ver{
+  padding-top: 10px;
+}
+.btn_prod {
+  border-radius: 8px;
+  background: var(--Dark-Gray, #232321);
+  width: 535px;
+  height: 32px;
+  color: white;
+}
+.btn_prod a {
+  color: #ffff;
+    text-decoration: none;
+}
+
+.cora{
+  background: var(--Dark-Gray, #232321);
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+}
+
+.suela{
+  color: #3333337D;
+}
+.tendencia{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+.interes{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.tendencia p{
+  font-size: 32px;
+}
